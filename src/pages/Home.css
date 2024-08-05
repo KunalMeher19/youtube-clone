@@ -1,0 +1,20 @@
+/* Home.css */
+.custom-scrollbar {
+  height: 100%;
+  overflow-y: auto;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  background-color: transparent;
+  width: 16px; /* Increased the width for a wider scrollbar */
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #1c1c1c; /* Match this color to your background color */
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #333; /* Adjust the color if needed */
+  border-radius: 1rem;
+  border: 4px solid #1c1c1c; /* Match the border to your background color */
+}
